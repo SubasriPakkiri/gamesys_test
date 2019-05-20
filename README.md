@@ -40,7 +40,7 @@ To get the app running:
  ```
  On windows? Activate it with the below:
  ```
-   env/Scripts/activate
+   env\Scripts\activate
  ```
 
  - Install the dependencies:
