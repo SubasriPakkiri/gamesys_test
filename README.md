@@ -1,4 +1,10 @@
 # gamesys_test
+This is a demo application shows how to build a RESTful web service that can queried for follwoing based on the REVENUE_ANALYSIS dataset:
+
+•	the total win amount for a given member,
+•	the total wager amount for a given member, and
+•	the number of wagers placed by a given member.
+
 
 ## Getting Started
 
@@ -15,7 +21,7 @@ This application uses the following:
 First, clone this repository to your local machine:
 
 ```sh
- $ git clone 
+ $ git clone https://github.com/senthilrajendran1/gamesys_test.git
 ```
 
 ### Running the App
