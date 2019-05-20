@@ -1,4 +1,6 @@
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wins/1001
+TOTAL WINS
+
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wins/1001
 HTTP/1.0 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Length: 62
@@ -6,7 +8,7 @@ Server: Werkzeug/0.15.4 Python/3.5.0
 Date: Mon, 20 May 2019 17:18:57 GMT
 
 [{"MEMBER_ID": 1001, "total_win_amounts": 30.799999999999997}]
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wins/1001/201701
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wins/1001/201701
 HTTP/1.0 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Length: 89
@@ -14,7 +16,7 @@ Server: Werkzeug/0.15.4 Python/3.5.0
 Date: Mon, 20 May 2019 17:19:02 GMT
 
 [{"ACTIVITY_YEAR_MONTH": 201701, "MEMBER_ID": 1001, "total_win_amounts_per_month": 14.1}]
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wins/1001/201701/7499
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wins/1001/201701/7499
 HTTP/1.0 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Length: 114
@@ -22,12 +24,14 @@ Server: Werkzeug/0.15.4 Python/3.5.0
 Date: Mon, 20 May 2019 17:19:09 GMT
 
 [{"ACTIVITY_YEAR_MONTH": 201701, "GAME_ID": 7499, "MEMBER_ID": 1001, "total_win_amounts_per_game_per_month": 0.7}]
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wagers/1001/201701/7499
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wagers/1001/201701/7499
 HTTP/1.0 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Length: 132
 Server: Werkzeug/0.15.4 Python/3.5.0
 Date: Mon, 20 May 2019 17:19:17 GMT
+
+TOTAL WAGER AMOUNT
 
 [{"ACTIVITY_YEAR_MONTH": 201701, "GAME_ID": 7499, "MEMBER_ID": 1001, "total_wager_amounts_per_month_per_game": 0.30000000000000004}]
 (venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wagers/1001/201701
@@ -38,7 +42,7 @@ Server: Werkzeug/0.15.4 Python/3.5.0
 Date: Mon, 20 May 2019 17:19:21 GMT
 
 [{"ACTIVITY_YEAR_MONTH": 201701, "MEMBER_ID": 1001, "total_wager_amounts_per_month": 1.1}]
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wagers/1001
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/total_wagers/1001
 HTTP/1.0 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Length: 63
@@ -46,7 +50,7 @@ Server: Werkzeug/0.15.4 Python/3.5.0
 Date: Mon, 20 May 2019 17:19:26 GMT
 
 [{"MEMBER_ID": 1001, "total_wager_amounts": 9.799999999999999}]
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/number_of_wagers/1001
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/number_of_wagers/1001
 HTTP/1.0 404 NOT FOUND
 Content-Type: text/html
 Content-Length: 232
@@ -58,7 +62,7 @@ Date: Mon, 20 May 2019 17:19:45 GMT
 <h1>Not Found</h1>
 <p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
 
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/wagers_placed/1001
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/wagers_placed/1001
 HTTP/1.0 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Length: 48
@@ -66,15 +70,17 @@ Server: Werkzeug/0.15.4 Python/3.5.0
 Date: Mon, 20 May 2019 17:19:59 GMT
 
 [{"MEMBER_ID": 1001, "total_wager_amounts": 15}]
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/wagers_placed/1001/201701
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/wagers_placed/1001/201701
 HTTP/1.0 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Length: 85
 Server: Werkzeug/0.15.4 Python/3.5.0
 Date: Mon, 20 May 2019 17:20:05 GMT
 
+NUMBER OF WAGERS PLACED
+
 [{"ACTIVITY_YEAR_MONTH": 201701, "MEMBER_ID": 1001, "number_of_wagers_per_month": 5}]
-(venv) C:\Users\SRA39\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/wagers_placed/1001/201701/7499
+(venv) C:\Users\Senthil\PycharmProjects\flask_python_test>curl -i http://127.0.0.1:5000/members/wagers_placed/1001/201701/7499
 HTTP/1.0 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Length: 111
