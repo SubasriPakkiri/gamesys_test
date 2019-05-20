@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 This application uses the following:
 
- - Python 3.6 (You should have python 3.6 or higher version installed)
+ - Python 3.5 (You should have python 3.5 or higher version installed)
  
 ### Setting up the project
 
