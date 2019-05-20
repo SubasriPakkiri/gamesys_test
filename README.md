@@ -59,7 +59,11 @@ To get the app running:
 
 - Open your browser and fire up the app - http://localhost:5000/
 
+- Total Win Amount - http://localhost:5000/members/total_wins/<member_id>/<activity_month>/<game_id>
+- Total Wager Amount - http://localhost:5000/members/total_wagers/<member_id>/<activity_month>/<game_id>
+- Number of Wagers Placed - http://localhost:5000/members/wagers_placed/<member_id>/<activity_month>/<game_id>
 
 ## Built With
 
 * [Flask](http://flask.pocoo.org/) - A microframework for Python
+* [SQLAlchemy](https://www.sqlalchemy.org/) - A Python SQL toolkit and Object Relational Mapper
