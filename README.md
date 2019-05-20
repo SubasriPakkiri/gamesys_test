@@ -50,6 +50,7 @@ To get the app running:
 
  - Finally run the app:
  ```
+  cd gamesys
   flask run
  ```
 
