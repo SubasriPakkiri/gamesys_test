@@ -1,5 +1,5 @@
 # gamesys_test
-This is a demo application shows how to build a RESTful web service that can queried for follwoing based on the REVENUE_ANALYSIS dataset:
+This is a demo application that shows how to build a RESTful web service that can queried for following based on the REVENUE_ANALYSIS dataset:
 
 •	the total win amount for a given member,
 •	the total wager amount for a given member, and
