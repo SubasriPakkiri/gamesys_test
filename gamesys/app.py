@@ -1,5 +1,5 @@
 from flask import Flask, json, jsonify, make_response, g
-from gamesys.resources.database import db_session, engine, init_db
+from gamesys.Resources.database import db_session, engine, init_db
 import decimal, datetime
 
 
